@@ -71,10 +71,9 @@ function initGame(){
 	return;
 }
 
-function getGain(){
+function getGain(this){
 	let gain;
 	gain = this.mines*2;
-	alert(this.mines);
 	return gain;
 }
 
