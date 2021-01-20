@@ -7,6 +7,7 @@ setInterval(gameLoop, 1000);
 
 function gameLoop(){
 	gameData.resource.charbon.amount += gameData.resource.charbon.gain();
+	alert(gameData.resource.charbon.gain());
 	gameData.resource.fer.amount += gameData.resource.fer.gain;
 	gameData.resource.monnaie.amount += gameData.resource.monnaie.gain;
 	gameData.resource.energie.amount += gameData.resource.energie.gain;
