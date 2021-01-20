@@ -46,17 +46,21 @@ function updateToolBar(evt){
 function initGame(){
 	gameData.resource = {};
 	gameData.resource.charbon = {};
-	gameData.resource.charbon.amount = 10;
-	gameData.resource.charbon.gain = 6;
+	gameData.resource.charbon.amount = 100;
+	gameData.resource.charbon.gain = 0;
+	gameData.resource.charbon.mines = 0;
 	gameData.resource.fer = {};
 	gameData.resource.fer.amount = 100;
-	gameData.resource.fer.gain = 3;
+	gameData.resource.fer.gain = 0;
+	gameData.resource.fer.mines = 0;
 	gameData.resource.monnaie = {};
-	gameData.resource.monnaie.amount = 69;
+	gameData.resource.monnaie.amount = 100;
 	gameData.resource.monnaie.gain = 0;
+	gameData.resource.monnaie.mines = 0;
 	gameData.resource.energie = {};
 	gameData.resource.energie.amount = 500;
-	gameData.resource.energie.gain = 1;
+	gameData.resource.energie.gain = 0;
+	gameData.resource.energie.mines = 0;
 	
 	
 	document.querySelector('#mineCharbon').onmouseover = updateToolBar;
