@@ -48,7 +48,7 @@ function initGame(){
 	gameData.resource.charbon = {};
 	gameData.resource.charbon.amount = 100;
 	gameData.resource.charbon.gain = getGain;
-	gameData.resource.charbon.mines = 0;
+	gameData.resource.charbon.mines = 1;
 	gameData.resource.fer = {};
 	gameData.resource.fer.amount = 100;
 	gameData.resource.fer.gain = 0;
