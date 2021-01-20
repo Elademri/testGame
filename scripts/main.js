@@ -73,6 +73,7 @@ function initGame(){
 function getGain(){
 	let gain;
 	gain = this.mines*2;
+	alert(this.mines);
 	return gain;
 }
 
