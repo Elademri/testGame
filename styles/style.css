@@ -1,0 +1,59 @@
+
+#resourceBar{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: lightblue;
+	}
+
+#resourceBar p{
+	margin: 0;
+	padding: 0;
+}
+	
+#resourceBar ol{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#resourceBar ol li{
+	display: inline;
+}
+
+#mainScreen{
+	background-color: lightgreen;
+}
+
+#mainScreen img{
+	display: block;
+	margin: auto;
+	width: 50%;
+	}
+
+#toolBar{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: lightgray;
+	}
+	
+#toolBar p{
+	margin: 0;
+	padding: 0;
+}
+	
+#toolBar ol{
+	list-style: none;
+	margin: 0;
+	font-size: 0; /* permet de coller les elts de la liste; could try flexbox */
+}
+
+#toolBar ol li{
+	display: inline;
+	border: 2px solid gray;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+}
+	
